@@ -4,8 +4,8 @@
     - Diese Seite ist "work in progress" - 
 
 
-
 # Hands on - Open Data
+
 *Unterlagen zum Workshop "Hands on - Open Data"*
 
 # Ressourcen / Links
@@ -15,6 +15,23 @@
 * Folien verlinken
 
 # Workshop-Inhalte
+
+Wir wollen an Beispielen zeigen, wie man „kleine“ Datensätze visualisieren kann. Dazu nutzen wir „komfortable“, frei im Internet verfügbare, interaktive Werkzeuge. Es werden keine Programmierkenntnisse benötigt. 
+
+## Datenaufbereitung
+
+Im Workshop wollen wir eher „kleine“ Datensätze visualisieren, d.h. konkret: Tabellen mit weniger als 10 Spalten, und maximal 5000 Zeilen.
+
+Die meisten Online-Tools benötigen einen „sauberen“ tabellarischen Datensatz: In der ersten Zeile stehen die Titel, und in den restlichen Zeilen stehen die Daten. 
+
+Zum Aufbereiten der zu visualisierenden Daten kann man gut LibreOffice oder Excel verwenden. Die Daten sollten dann z.B. folgendermaßen aussehen: 
+
+| Code        | Name          | Betrag |
+| ----------- | ------------- | ------ |
+| 501305      | right-aligned |   1600 |
+| 502030      | centered      |    122 |
+| 500331      | are neat      |    500 |
+| ...         | ...etc...     |    ... |
 
 ## Teil 1: Statistische Daten aus Deutschland visualisieren
 
@@ -52,3 +69,18 @@ Eine sehr gute Übersicht visueller Tools gibt es unter:
 ## Teil 3: Komplexere Online-Tools zum Erstellen von Diagrammen
 
 * TBD
+
+
+## Teil 4: Darstellung anderer Datenformate (keine Excel/CSV Tabellen)
+
+**GEOJSON**
+* Man nehme eine geojson Datei (z.B. vom Open-Data-Portal der Stadt Münster)
+* Geojson anschauen: http://geojson.io
+  (einfach geojson per „copy und paste“ einfügen)
+* Wenn man die Geojson-Punkte filtern möchte: http://www.jsonquerytool.com
+* Die gefilterten Ergebnisse dann wieder anschauen mit (2.)
+  * Man kann zusätzlich bei einzelnen Punkten als „properties“ dazuschreiben: 
+    marker-color: #B1AB1A
+    ..dann wird der Marker in einer anderen Farbe dargestellt (Ist Teil vom geojson standard)
+* Veröffentlichen: Als Github gist einfach das geojson reinkopieren. Github zeigt geojson automatisch als Karte an und man kann auf die Punkte draufklicken und bekommt die Properties als popup angezeigt.
+
