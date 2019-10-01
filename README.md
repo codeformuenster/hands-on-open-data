@@ -13,6 +13,8 @@
 * TBD:
 * Wollen wir hier auf einzelne Open Data Portale verlinken? Besser auf fertige Linklisten zu Open Data Portalen. Aber welches ist die ultimative „Open-Data-Startseite bzw Linkliste?“?
 * Folien verlinken
+* Folien "Was ist Open Data": [https://codeformuenster.org/codeforosna-opendata-slides/](https://codeformuenster.org/codeforosna-opendata-slides/). Quelltext: [https://github.com/codeformuenster/codeforosna-opendata-slides](https://github.com/codeformuenster/codeforosna-opendata-slides)
+
 
 # Workshop-Inhalte
 
